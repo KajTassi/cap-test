@@ -1,6 +1,6 @@
 # Thinkful Capstone: Periodic Tables; The Resturange Reservation App
 
-> Live app is available here:  'https://back-77msbfjn0-kajtassi.vercel.app'
+> Live app is available here:  'https://front-end-kajtassi.vercel.app/dashboard'
 
 A full-stack app built using:
 - HTML
