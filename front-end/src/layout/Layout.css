@@ -12,42 +12,45 @@ body {
 
 .sidebar-brand-text {
   font-family: 'Oswald', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
-  color: #EAA916;
+  color: white;
 }
 
 .side-bar {
-  background-color: #1B1B1E;
+  background-color: 	#4682B4;;
   min-width: 200px;
+  border-style: solid;
 }
 
 /* Headings */
 
 h1, h2 {
   font-family: 'Oswald', sans-serif;
-  color: #FBFFFE;
+  color: #FFFFFF;
   text-align: center;
 }
 
 .headingBar {
-  background-color: #96031A;
+  background-color:	#5F9EA0;
+  border-style: solid;
 }
 
 /* Cards */
 
 .card {
   background-color: #FCF3CF;
+  border-style: solid;
 }
 
 .card-header {
-  background-color: #1B1B1E;
-  color: #EAA916;
+  background-color: #4682B4;
+  color: 	#FFFFFF;
 }
 
 /* Buttons */
 
 .btn-dark {
-  background-color: #1B1B1E;
-  color: #EAA916;
+  background-color: #4682B4;
+  color: #FFFFFF;
 }
