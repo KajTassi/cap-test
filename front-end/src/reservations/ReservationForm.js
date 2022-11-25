@@ -129,7 +129,6 @@ export default function ReservationForm({ reservation_id }) {
                         onChange={handleChange}
                         required="required"
                         value={form.first_name}
-                        onFocus={e=>e.target.value = ""}
                     />
                 </div>
                 <div className="form-group">
@@ -143,14 +142,13 @@ export default function ReservationForm({ reservation_id }) {
                         onChange={handleChange}
                         required="required"
                         value={form.last_name}
-                        onFocus={e=>e.target.value = ""}
                     />
                 </div>
                 <div className="form-group">
                     <label htmlFor="mobile_number">Mobile Phone Number</label>
                     <input 
                         className="form-control"
-                        type="tel"
+                        type="text"
                         name="mobile_number"
                         id="mobile_number"
                         placeholder="555-555-5555"
@@ -201,5 +199,7 @@ export default function ReservationForm({ reservation_id }) {
         </>
     );
 
-};
+}
+
+
 

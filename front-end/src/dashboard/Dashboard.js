@@ -36,8 +36,8 @@ function Dashboard({ date }) {
     async function loadDashboard() {
       try {
         setDashboardError([]);
-        const reservationList = await listReservations({ date }, abortController.signal);
-        setReservations(reservationList);
+        const reservationDate = await listReservations({ date }, abortController.signal);
+        setReservations(reservationDate);
       } catch (error) {
         setReservations([]);
         setDashboardError([error.message]);
